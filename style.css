@@ -1,0 +1,102 @@
+body{
+    margin : 0px 0px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("images/background.png");
+    background-size: cover;
+}
+
+.container1{
+    padding: 0px 100px;
+}
+
+.content{
+    padding-right: 800px;
+    overflow: hi;
+    
+}
+
+.TopText{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 5px 0px 10px;
+    font-size: 10px;
+}
+
+.header{
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    height :30px;
+    width: 100px;
+}
+
+.List{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    display: flex;
+}
+
+.login:hover{
+    background-color: green;
+}
+
+.signup:hover{
+
+    background-color: rgb(0, 191, 0);
+
+    /* height: 40px;
+    width: 120px; */
+}
+
+.login{
+    position: absolute;
+    right : 80px;
+    top:60px;
+    background-color: rgb(0, 191, 0);
+    color: white;
+    border: 0px;
+}
+
+.login,.signup{
+    padding: 5px 5px 5px 5px;
+    height: 35px;
+    color: white;
+    border-radius: 8px;
+}
+
+.signup{
+    position:absolute;
+    right: 200px;
+    top:60px;
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.navigation{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logotext{
+    position: relative;
+    top:15px;
+}
